@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is the ecromarce project ">
+    <title>Ecommerce site </title>
+    <!-- font owsame  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- navbar start here  -->
+<i class="fas fa-bars fa-2x" id="menu-icon"></i>
+<nav class="hidden" id="navbar">
+
+    <ul class="nav-upper flex-space-around">
+        <li class="nav_list"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav_list"><a href="register.html" class="nav-link">Register</a></li>
+        <li class="nav_list"><a href="login.html" class="nav-link">login</a></li>
+        <li class="nav_list"><a href="index.html" class="nav-link">Logout</a></li>
+        <li class="nav_list"><a href="contact.html" class="nav-link">Contact</a></li>
+        <li class="nav_list"><a href="profile.html" class="nav-link"><img class="profile-icon" src="image/mypic.jpg" alt="profile icon "></a></li>
+       
+      </ul>
+
+      
+
+</nav>
+<main>
+    <section class="profile flex-center">
+     <h2 class="section-title text-center">User Profile </h2>
+     <div class="card flex-center">
+      <img src="image/mypic.jpg" class="profile-img" alt="mypic">
+      <h2 class="profile_name">Rezaul karim </h2>
+      <p class="profile_email">rrezaulkarim023@gmail.com </p>
+      <p class="profil_about">I am a stutent . Studying in CSE </p>
+      <div class="profile_button">
+        <button class="btn profile_edit-btn">
+          <i class="far fa-edit fa-3x "></i>
+        </button>
+        <button class="btn profile_delete-btn">
+          <i class="fa fa-trash fa-3x" aria-hidden="true"></i>
+        </button>
+      </div>
+     
+        
+    
+      </div>
+      
+      
+
+     
+    </section>
+</main>
+<!-- nav menu end here  -->
+
+
+  <!-- footer start here  -->
+
+  <footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe "> subscribe to Newlatter :</label>
+        <input type="email" id="subscribe" name="subscribe" class="footer_input" placeholder="Your email address ">
+        <button class="btn btn-subscribe">Subscribe</button>
+    </div>
+    <div>
+        <p>&copy; Copyright 2023 </p>
+    </div>
+  </footer>
+  <!-- footer end here  -->
+<script src="script.js"></script>
+</body>
+</html>
